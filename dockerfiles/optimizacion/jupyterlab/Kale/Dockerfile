@@ -28,7 +28,7 @@ RUN jupyter notebook --generate-config && \
 RUN pip3 install $PIP_PACKAGES_COMMON
 RUN pip3 install $PIP_PACKAGES_KALE
 RUN jupyter labextension install kubeflow-kale-labextension@0.6.1
-RUN pip install --quiet "git+https://github.com/optimizacion-2-2022-gh-classroom/practica-1-segunda-parte-LuzVerde23.git#egg=MaxFlowAeiu&subdirectory=src"
+#RUN pip install --quiet "git+https://github.com/optimizacion-2-2022-gh-classroom/practica-1-segunda-parte-LuzVerde23.git#egg=MaxFlowAeiu&subdirectory=src"
 
 VOLUME ["/shared_volume"]
 
